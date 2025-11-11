@@ -1,0 +1,44 @@
+<header class="site-header">
+  <h1 id="top">Your Name</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a student learning web development. I enjoy building simple web pages
+      with clean HTML, readable CSS, and tiny JavaScript. This page is my first step!
+    </p>
+    <ul class="bullets">
+      <li>Languages: HTML, CSS, JavaScript</li>
+      <li>Interests: UI basics, clean code, accessibility</li>
+      <li>Goal: Learn by making small projects</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm" novalidate>
+      <label>
+        Your Email
+        <input type="email" name="email" placeholder="you@example.com" required />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" placeholder="Say hello..." required></textarea>
+      </label>
+      <button type="submit">Send</button>
+      <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <p class="back-top"><a href="#top">Back to top ↑</a></p>
+</main>
+
+<footer class="site-footer">
+  <small>© <span id="year"></span> Your Name. Built with HTML, CSS & JS.</small>
+</footer>
